@@ -4,7 +4,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    SQLALCHEMY_DATABASE_URI = (
+    # Handle Render's PostgreSQL URL
+    db_url = os.environ.get('DATABASE_URL')
+    if db_url and db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+
+    SQLALCHEMY_DATABASE_URI = db_url or (
         f"mysql+pymysql://{os.getenv('DB_USER', 'root')}:"
         f"{os.getenv('DB_PASSWORD', '')}@"
         f"{os.getenv('DB_HOST', '127.0.0.1')}:"
