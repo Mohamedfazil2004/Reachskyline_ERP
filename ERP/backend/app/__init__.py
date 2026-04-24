@@ -21,7 +21,13 @@ def create_app(config_class=Config):
     # Auto-create admin user if not exists (Smart check)
     with app.app_context():
         try:
+            # IMPORTANT: All models must be imported here so SQLAlchemy can see them
             from app.models.user import User
+            from app.models.master import Client, ActivityType
+            from app.models.workflow import MonthlyPlan, Deliverable, JobWork, Shoot
+            from app.models.automation import MonthlyDeliverable, EmployeeDailyMinutes, AutomationTask
+            from app.models.work_record import WorkRecord
+            
             admin_exists = User.query.filter((User.email == 'admin@erp.com') | (User.employee_id == 'ADM001')).first()
             if not admin_exists:
                 print("SEED: Creating default admin user...")
