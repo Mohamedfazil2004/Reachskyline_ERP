@@ -123,7 +123,7 @@ with app.app_context():
     print("=== Step 1: Run DB migrations (alter existing tables, create new ones) ===")
     try:
         db.session.execute(text("ALTER TABLE activity_types ADD COLUMN IF NOT EXISTS code_letter VARCHAR(5) DEFAULT 'X'"))
-        db.session.execute(text("ALTER TABLE activity_types ADD COLUMN IF NOT EXISTS writer_minutes INT DEFAULT 10"))
+        db.session.execute(text("ALTER TABLE activity_types ADD COLUMN IF NOT EXISTS activity_time INT DEFAULT 10"))
         db.session.execute(text("ALTER TABLE activity_types ADD COLUMN IF NOT EXISTS editor_minutes INT DEFAULT 15"))
         db.session.commit()
         print("  ✓ activity_types columns added")
@@ -155,14 +155,14 @@ with app.app_context():
         at = ActivityType.query.filter_by(code_id=code_id).first()
         if not at:
             at = ActivityType(code_id=code_id, name=name, code_letter=code_letter,
-                              writer_minutes=writer_mins, editor_minutes=editor_mins,
+                              activity_time=writer_mins, editor_minutes=editor_mins,
                               duration_minutes=writer_mins)
             db.session.add(at)
             print(f"  + {code_id}: {name}")
         else:
             at.name = name
             at.code_letter = code_letter
-            at.writer_minutes = writer_mins
+            at.activity_time = writer_mins
             at.editor_minutes = editor_mins
             print(f"  ~ {code_id}: {name} (updated)")
     db.session.commit()
