@@ -39,7 +39,7 @@ class ActivityType(db.Model):
     code_id = db.Column(db.String(10), unique=True)   # AT001, AT002 etc
     name = db.Column(db.String(100), nullable=False)  # Post, Animated Reel, etc.
     code_letter = db.Column(db.String(5), default='X')  # P, R, B, C, S, L, A
-    activity_time = db.Column(db.Integer, default=10)   # Time in minutes (replaces writer_minutes)
+    writer_minutes = db.Column(db.Integer, default=10)   # Time in minutes
     editor_minutes = db.Column(db.Integer, default=15)   # Time for editor stage
     duration_minutes = db.Column(db.Integer, default=10) # Legacy / default
     description = db.Column(db.String(200))
@@ -50,7 +50,7 @@ class ActivityType(db.Model):
             'code_id': self.code_id,
             'name': self.name,
             'code_letter': self.code_letter,
-            'activity_time': self.activity_time,
+            'writer_minutes': self.writer_minutes,
             'editor_minutes': self.editor_minutes,
             'duration_minutes': self.duration_minutes,
             'description': self.description
