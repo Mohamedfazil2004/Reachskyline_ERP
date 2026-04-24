@@ -1,0 +1,35 @@
+Rajaguru ID: 11
+Rajaguru Name: Rajaguru
+Rajaguru Role: Video Editor
+Rajaguru Capacity: 480
+
+Recent Tasks for Rajaguru:
+Task ID: 1766 Code: 633YTS1
+  Stage: completed Status: Completed
+  Assigned Date: 2026-03-01
+  Minutes (Writer): 20
+  Minutes (Editor): 60
+  Total Visibility Time: 20
+  Priority: 3
+  Assignment Time: None
+--------------------
+Task ID: 1739 Code: 635YTS6
+  Stage: video_editing Status: Assigned to Editor
+  Assigned Date: 2026-03-01
+  Minutes (Writer): 20
+  Minutes (Editor): 60
+  Total Visibility Time: 60
+  Priority: 0
+  Assignment Time: None
+--------------------
+Task ID: 1329 Code: 622JW1
+  Stage: completed Status: Completed
+  Assigned Date: 2026-02-27
+  Minutes (Writer): 10
+  Minutes (Editor): 25
+  Total Visibility Time: 10
+  Priority: 3
+  Assignment Time: None
+--------------------
+
+Recent Logs mentioning Rajaguru:

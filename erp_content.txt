@@ -1,0 +1,134 @@
+ERP - WEBPAGE WORKFLOW 
+1. Project Overview
+The purpose of this ERP system is to streamline and automate the complete workflow of client deliverables, 
+monthly content scheduling, approvals, posting management, job work tracking, and reporting.
+
+This system ensures transparency, accountability, timely delivery, and smooth coordination between writers, editors, QC team, and management.
+2. System Overview
+The ERP will function as a centralized digital platform where all client deliverables and internal work 
+processes are managed efficiently.
+
+The system includes:
+• Master Management
+• Monthly Deliverable Planning
+• Automated Activity Code Generation
+• Content Calendar Management
+• QC Approval System
+• Daily Posting Tracker
+• Job Work Tracker
+• Shoot Repository Management
+• Team Activity Tracking
+• Reporting & Performance Monitoring
+3. Master Setup
+Master:
+Each client will be assigned a unique Client ID for proper tracking.
+
+Activity Type Master:
+Content types such as Poster, Reel, Shorts, Longform, Carousel, Event Day, and Job Work will have predefined codes 
+to maintain uniform tracking across the system.
+4. Monthly Planning Process
+Step 1: Define Monthly Deliverables
+monthly requirement will be entered (Posters, Reels, Shorts, Longform, Carousels, Events).
+
+Step 2: Monthly Split Planning
+The system distributes deliverables evenly across the month to ensure balanced workload, 
+proper frequency, and clear deadline visibility.
+5. Activity Code Generation
+Every deliverable will automatically receive a unique Activity Code for tracking and reporting.
+
+The code includes Year, Month, Client ID, Content Type, and a sequential number. 
+This prevents duplication and ensures structured tracking.
+6. Content Calendar Workflow
+Each calendar entry includes:
+• Planned Date
+• Client Name and ID
+• Activity Code
+• Content Type
+• Rough Cut Link
+• Content Draft
+• Thumbnail Concept
+• Description and Title
+• Reference Link
+• Final Output Link
+• Approval Status
+• Work Type
+• Time Tracking
+7. Normal Deliverable Workflow
+1. Monthly plan created
+2. Activity codes generated
+3. Content added to calendar
+4. Rough cut uploaded
+5. QC approval completed
+6. Final creative uploaded
+7. Creative approval completed
+8. Content scheduled/posted
+9. Status marked as completed
+
+All approvals must be done within the ERP system for documentation.
+8. QC Approval System
+Normal deliverables must be approved only inside the ERP Content Calendar.
+
+Job works may be approved via official group communication if urgent.
+
+This ensures accountability and avoids posting errors.
+9. Daily Posting Tracker
+The system tracks posting status across platforms:
+• Instagram
+• Facebook
+• YouTube
+• X (Twitter)
+• LinkedIn
+• WhatsApp
+
+Each platform shows status as Not Posted, Scheduled, or Posted.
+10. Job Work Management
+Additional tasks outside monthly deliverables are logged as Job Work.
+
+Each entry includes Client, Activity Code, Description, Deadline, Time Spent, File Link, and Status.
+
+This enables transparent billing and proper deadline tracking.
+11. Shoot Repository Management
+After every shoot, details must be updated within one day including:
+• Video Title
+• Doctor/Client Name
+• Content Type
+• Footage Link
+• Reference Link
+
+This ensures organized storage and easy retrieval.
+12. Team Activity Tracker
+Tasks are assigned to Writers, Editors, and QC team.
+
+Each task includes Client Name, Activity Code, Estimated Time, and Status 
+(Not Started, In Progress, Completed, Delivered).
+13. Reporting & Performance Monitoring
+The ERP provides:
+• Monthly Client Reports
+• Deliverables Completed vs Pending
+• Job Work Billing Summary
+• Time Tracking Reports
+• Posting Performance Summary
+14. User Roles & Access Control
+Admin – Full system access
+Manager – Planning and approvals
+QC Team – Content approvals
+Editor – Upload and update content
+Content Writer – Add content drafts
+15. Benefits of the ERP System
+• Transparent deliverable tracking
+• Clear approval process
+• Reduced posting errors
+• Organized file management
+• Improved time management
+• Accurate job work billing
+• Better team coordination
+• Prevention of missed deadlines
+16. Implementation Plan
+Phase 1 – Master Setup & Authentication
+Phase 2 – Monthly Planning & Activity Code Automation
+Phase 3 – Content Calendar & QC System
+Phase 4 – Posting Tracker & Job Work Module
+Phase 5 – Reports, Testing & Deployment
+17. Final Outcome
+This ERP system will provide complete end-to-end content production management with 
+structured planning, approval hierarchy, job tracking, and reporting transparency.

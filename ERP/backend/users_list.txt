@@ -1,0 +1,12 @@
+﻿Total Users: 11
+Name: System Admin, Email: admin@erp.com, Role: Admin, Active: True
+Name: Sri Kunjaravalli, Email: sri@skyline.com, Role: Content Writer, Active: True
+Name: Abirami, Email: abirami@skyline.com, Role: Content Writer, Active: True
+Name: Brand Manager, Email: brandmanager@skyline.com, Role: Brand Manager, Active: True
+Name: Rishinesh, Email: rishinesh@reachskyline.com, Role: Video Editor, Active: True
+Name: Rajaguru, Email: rajaguru@reachskyline.com, Role: Video Editor, Active: True
+Name: Visalam, Email: visalam@reachskyline.com, Role: Video Editor, Active: True
+Name: Kesavan, Email: kesavan@reachskyline.com, Role: Video Editor, Active: True
+Name: Sasi, Email: sasi@skyline.com, Role: Business Development Head, Active: True
+Name: Swetha, Email: swetha@skyline.com, Role: HR, Active: True
+Name: Mathesh, Email: mathesh@skyline.com, Role: Website & SEO Head, Active: True

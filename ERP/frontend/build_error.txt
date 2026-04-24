@@ -1,0 +1,105 @@
+﻿
+> frontend@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 103 modules transformed.
+node.exe : [31mΓ£ù[39m 
+Build failed in 1.23s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ([31mΓ£  
+  ù[39m Build failed in 1   
+ .23s:String) [], RemoteE    
+xception
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+[31merror during build:
+[31msrc/components/Sidebar.j
+sx (4:4): "FaLayout" is not 
+exported by "node_modules/rea
+ct-icons/fa/index.mjs", 
+imported by "src/components/S
+idebar.jsx".[31m
+file: [36mC:/Users/acer/OneD
+rive/Desktop/ERP_webpage/ERP/
+frontend/src/components/Sideb
+ar.jsx:4:4[31m
+[33m
+2: import { NavLink } from 
+'react-router-dom';
+3: import {
+4:     FaLayout, 
+FaCalendarAlt, FaBriefcase, 
+FaCamera,
+       ^
+5:     FaChartBar, FaUsers, 
+FaCog, FaSignOutAlt, FaRocket
+6: } from 'react-icons/fa';
+[31m
+    at getRollupError (file:/
+//C:/Users/acer/OneDrive/Desk
+top/ERP_webpage/ERP/frontend/
+node_modules/rollup/dist/es/s
+hared/parseAst.js:402:41)
+    at error (file:///C:/User
+s/acer/OneDrive/Desktop/ERP_w
+ebpage/ERP/frontend/node_modu
+les/rollup/dist/es/shared/par
+seAst.js:398:42)
+    at Module.error (file:///
+C:/Users/acer/OneDrive/Deskto
+p/ERP_webpage/ERP/frontend/no
+de_modules/rollup/dist/es/sha
+red/node-entry.js:17040:16)
+    at Module.traceVariable (
+file:///C:/Users/acer/OneDriv
+e/Desktop/ERP_webpage/ERP/fro
+ntend/node_modules/rollup/dis
+t/es/shared/node-entry.js:174
+52:29)
+    at 
+ModuleScope.findVariable (fil
+e:///C:/Users/acer/OneDrive/D
+esktop/ERP_webpage/ERP/fronte
+nd/node_modules/rollup/dist/e
+s/shared/node-entry.js:15070:
+39)
+    at ReturnValueScope.findV
+ariable (file:///C:/Users/ace
+r/OneDrive/Desktop/ERP_webpag
+e/ERP/frontend/node_modules/r
+ollup/dist/es/shared/node-ent
+ry.js:5673:38)
+    at FunctionBodyScope.find
+Variable (file:///C:/Users/ac
+er/OneDrive/Desktop/ERP_webpa
+ge/ERP/frontend/node_modules/
+rollup/dist/es/shared/node-en
+try.js:5673:38)
+    at Identifier.bind (file:
+///C:/Users/acer/OneDrive/Des
+ktop/ERP_webpage/ERP/frontend
+/node_modules/rollup/dist/es/
+shared/node-entry.js:5447:40)
+    at CallExpression.bind (f
+ile:///C:/Users/acer/OneDrive
+/Desktop/ERP_webpage/ERP/fron
+tend/node_modules/rollup/dist
+/es/shared/node-entry.js:2825
+:28)
+    at CallExpression.bind (f
+ile:///C:/Users/acer/OneDrive
+/Desktop/ERP_webpage/ERP/fron
+tend/node_modules/rollup/dist
+/es/shared/node-entry.js:1217
+9:15)[39m

@@ -1,0 +1,26 @@
+Found editor: Rajaguru (ID: 11)
+Total tasks associated: 3
+Task ID: 1329 Code: 622JW1
+  Stage: completed Status: Completed
+  Assigned Date: 2026-02-27
+  Writer ID: 6 Editor ID: 11
+  Priority: 3 Source: job_work
+  Work Date: None
+--------------------
+Task ID: 1739 Code: 635YTS6
+  Stage: video_editing Status: Assigned to Editor
+  Assigned Date: 2026-03-01
+  Writer ID: 6 Editor ID: 11
+  Priority: 0 Source: monthly
+  Work Date: 2026-03-04
+--------------------
+Task ID: 1766 Code: 633YTS1
+  Stage: completed Status: Completed
+  Assigned Date: 2026-03-01
+  Writer ID: 7 Editor ID: 11
+  Priority: 3 Source: monthly
+  Work Date: 2026-03-03
+--------------------
+Past incomplete tasks: 1
+  Blocking Task: 1739 (635YTS6) Date: 2026-03-01 Status: Assigned to Editor
+Today's tasks: 0

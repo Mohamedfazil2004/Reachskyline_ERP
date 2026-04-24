@@ -1,0 +1,15 @@
+# Backend
+ERP/backend/venv/
+ERP/backend/__pycache__/
+ERP/backend/.env
+ERP/backend/uploads/
+ERP/backend/*.pyc
+
+# Frontend
+ERP/frontend/node_modules/
+ERP/frontend/dist/
+ERP/frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db

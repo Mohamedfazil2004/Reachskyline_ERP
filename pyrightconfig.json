@@ -1,0 +1,13 @@
+{
+  "executionEnvironments": [
+    {
+      "root": "ERP/backend",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ],
+  "pythonVersion": "3.10",
+  "reportMissingImports": "none",
+  "reportGeneralTypeIssues": "none"
+}

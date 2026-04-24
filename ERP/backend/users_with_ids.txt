@@ -1,0 +1,15 @@
+ID: 1, Name: System Admin, Email: admin@erp.com, Role: Admin
+ID: 6, Name: Sri Kunjaravalli, Email: sri@skyline.com, Role: Content Writer
+ID: 7, Name: Abirami, Email: abirami@skyline.com, Role: Content Writer
+ID: 8, Name: Brand Manager, Email: brandmanager@skyline.com, Role: Brand Manager
+ID: 10, Name: Rishinesh, Email: rishinesh@reachskyline.com, Role: Video Editor
+ID: 11, Name: Rajaguru, Email: rajaguru@reachskyline.com, Role: Video Editor
+ID: 12, Name: Visalam, Email: visalam@reachskyline.com, Role: Video Editor
+ID: 13, Name: Kesavan, Email: kesavan@reachskyline.com, Role: Video Editor
+ID: 14, Name: Sasi, Email: sasi@skyline.com, Role: Business Development Head
+ID: 15, Name: Swetha, Email: swetha@skyline.com, Role: HR
+ID: 16, Name: Mathesh, Email: mathesh@skyline.com, Role: Website Head
+ID: 18, Name: Kousic, Email: kousic@reachskyline.com, Role: Website Employee
+ID: 19, Name: Dharan, Email: dharan@reachskyline.com, Role: Website Employee
+ID: 20, Name: Mohamed Fazil, Email: fazil@reachskyline.com, Role: Website Employee
+ID: 21, Name: Mathesh, Email: mathesh@reachskyline.com, Role: Website Head

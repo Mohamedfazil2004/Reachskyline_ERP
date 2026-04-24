@@ -1,0 +1,30 @@
+CLIENT NAME                         | ACTIVITY NAME                  | TASK COUNT
+--------------------------------------------------------------------------------
+Brigantine                          | Post                           | 5
+Dr Senthilnathan                    | Long Form / YouTube Long       | 2
+Dr Senthilnathan                    | YouTube Shorts / Flyer         | 5
+Gem Hospital Chennai                | Animated Reel / Card Design    | 5
+Gem Hospital Chennai                | Long Form / YouTube Long       | 5
+Gem Hospital Chennai                | Post                           | 5
+Gem Hospital Chennai                | YouTube Shorts / Flyer         | 5
+Madras Coffee House                 | Animated Reel / Card Design    | 5
+Madras Coffee House                 | Post                           | 5
+Madras Coffee House                 | YouTube Shorts / Flyer         | 5
+MSPVL Polytechnic College           | Animated Reel / Card Design    | 5
+MSPVL Polytechnic College           | Long Form / YouTube Long       | 4
+MSPVL Polytechnic College           | Post                           | 5
+MSPVL Polytechnic College           | YouTube Shorts / Flyer         | 5
+Ramnath Bhagavath                   | YouTube Shorts / Flyer         | 5
+Reach Skyline                       | YouTube Shorts / Flyer         | 5
+SCSVMV University                   | Animated Reel / Card Design    | 5
+SCSVMV University                   | Long Form / YouTube Long       | 2
+SCSVMV University                   | Post                           | 5
+SCSVMV University                   | YouTube Shorts / Flyer         | 5
+Spahi                               | Animated Reel / Card Design    | 5
+Spahi                               | Post                           | 5
+Supreme Speciality Hospital         | Animated Reel / Card Design    | 5
+Supreme Speciality Hospital         | Long Form / YouTube Long       | 4
+Supreme Speciality Hospital         | Post                           | 5
+Supreme Speciality Hospital         | YouTube Shorts / Flyer         | 5
+--------------------------------------------------------------------------------
+TOTAL TASKS ASSIGNED IN MARCH: 122
