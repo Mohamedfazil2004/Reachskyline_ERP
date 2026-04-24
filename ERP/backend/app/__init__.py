@@ -14,6 +14,10 @@ def create_app(config_class=Config):
     migrate.init_app(app, db)
     CORS(app, origins="*")
 
+    @app.route('/')
+    def home():
+        return {"message": "Reach Skyline ERP Backend is Running!"}, 200
+
     # Register blueprints
     from app.routes.auth import auth_bp
     from app.routes.master import master_bp
