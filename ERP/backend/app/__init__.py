@@ -18,6 +18,28 @@ def create_app(config_class=Config):
     def home():
         return {"message": "Reach Skyline ERP Backend is Running!"}, 200
 
+    # Auto-create admin user if not exists
+    with app.app_context():
+        try:
+            from app.models.user import User
+            admin = User.query.filter_by(email='admin@erp.com').first()
+            if not admin:
+                print("SEED: Creating default admin user...")
+                new_admin = User(
+                    name="System Admin",
+                    email="admin@erp.com",
+                    role="Admin",
+                    is_active=True
+                )
+                new_admin.set_password("admin123")
+                db.session.add(new_admin)
+                db.session.commit()
+                print("SEED: Admin user created successfully!")
+            else:
+                print("SEED: Admin user already exists.")
+        except Exception as e:
+            print(f"SEED ERROR: {e}")
+
     # Register blueprints
     from app.routes.auth import auth_bp
     from app.routes.master import master_bp
