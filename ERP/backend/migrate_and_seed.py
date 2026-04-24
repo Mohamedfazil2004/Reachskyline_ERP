@@ -173,7 +173,8 @@ with app.app_context():
 
     print("\n=== Step 4: Seed Employees / Users ===")
     for eid, ename, email, pwd, role, is_writer, is_editor, daily_mins in EMPLOYEES:
-        u = User.query.filter_by(employee_id=eid).first()
+        # Check if user exists by either employee_id OR email
+        u = User.query.filter((User.employee_id == eid) | (User.email == email)).first()
         if not u:
             u = User(
                 name=ename, email=email, role=role,

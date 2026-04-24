@@ -18,33 +18,21 @@ def create_app(config_class=Config):
     def home():
         return {"message": "Reach Skyline ERP Backend is Running!"}, 200
 
-    # Auto-create admin user if not exists
+    # Auto-create admin user if not exists (Smart check)
     with app.app_context():
         try:
-            # Import all models to ensure mappers are initialized correctly
             from app.models.user import User
-            from app.models.master import Client, ActivityType
-            from app.models.workflow import MonthlyPlan, Deliverable, JobWork, Shoot
-            from app.models.automation import MonthlyDeliverable, EmployeeDailyMinutes, AutomationTask
-            from app.models.work_record import WorkRecord
-            
-            admin = User.query.filter_by(email='admin@erp.com').first()
-            if not admin:
+            admin_exists = User.query.filter((User.email == 'admin@erp.com') | (User.employee_id == 'ADM001')).first()
+            if not admin_exists:
                 print("SEED: Creating default admin user...")
-                new_admin = User(
-                    name="System Admin",
-                    email="admin@erp.com",
-                    role="Admin",
-                    is_active=True
-                )
+                new_admin = User(name="System Admin", email="admin@erp.com", role="Admin", employee_id="ADM001", is_active=True)
                 new_admin.set_password("admin123")
                 db.session.add(new_admin)
                 db.session.commit()
-                print("SEED: Admin user created successfully!")
             else:
-                print("SEED: Admin user already exists.")
+                print("SEED: Admin verified.")
         except Exception as e:
-            print(f"SEED ERROR: {e}")
+            print(f"SEED LOG: {e}")
 
     # Register blueprints
     from app.routes.auth import auth_bp
