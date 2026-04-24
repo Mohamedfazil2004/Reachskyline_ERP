@@ -69,6 +69,10 @@ ACTIVITY_TYPES = [
 
 # employee_id, name, email, password, role, is_content_writer, is_video_editor, daily_mins
 EMPLOYEES = [
+    ("ADM001", "System Admin",    "admin@erp.com",      "admin123",        "Admin",           False, False, 0),
+    ("MGT001", "Sasi",            "sasi@skyline.com",   "sasi_password",   "Business Development Head", False, False, 0),
+    ("MGT002", "Swetha",          "swetha@skyline.com", "swetha_password", "HR",              False, False, 0),
+    ("MGT003", "Mathesh",         "mathesh@skyline.com", "mathesh_password", "Website & SEO Head", False, False, 0),
     ("E001", "Rishinesh",       "rishinesh@sky.com",  "pass123", "Editor",          False, True,  480),
     ("E002", "Rajaguru",        "rajaguru@sky.com",   "pass123", "Editor",          False, True,  480),
     ("E003", "Visalam",         "visalam@sky.com",    "pass123", "Editor",          False, True,  480),
