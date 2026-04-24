@@ -21,7 +21,13 @@ def create_app(config_class=Config):
     # Auto-create admin user if not exists
     with app.app_context():
         try:
+            # Import all models to ensure mappers are initialized correctly
             from app.models.user import User
+            from app.models.master import Client, ActivityType
+            from app.models.workflow import MonthlyPlan, Deliverable, JobWork, Shoot
+            from app.models.automation import MonthlyDeliverable, EmployeeDailyMinutes, AutomationTask
+            from app.models.work_record import WorkRecord
+            
             admin = User.query.filter_by(email='admin@erp.com').first()
             if not admin:
                 print("SEED: Creating default admin user...")
